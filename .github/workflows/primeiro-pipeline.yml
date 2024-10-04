@@ -13,6 +13,7 @@ on:
 jobs:
   Trabalho1:
     name: Fluxo 1
+    needs: Trabalho3
     runs-on: ubuntu-latest
     # agora irei programar os passos do script 
     steps:
@@ -24,6 +25,7 @@ jobs:
         run: echo "Executando o terceiro passo"
   Trabalho2:
     name: Fluxo 2
+    needs: Trabalho1
     runs-on: ubuntu-latest
     # agora irei programar mais outra sequencia de passos do script 
     steps:
