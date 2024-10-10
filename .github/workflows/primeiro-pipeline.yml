@@ -1,6 +1,6 @@
 # Aqui iremos nomear adequadamente nosso pipeline (fluxo de trabalho)
 name: Primeiro workflow
-# aqui iremos listar os eventos (gatilhos) que disparam o pipeline
+# aqui iremos listar os eventos (gatilhos) que disparam o pipeline.
 on:
   push: 
     branches:
